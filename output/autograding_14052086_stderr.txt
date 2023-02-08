@@ -1,0 +1,9 @@
+parallel_mult_mat_mat.c: In function ‘main’:
+parallel_mult_mat_mat.c:41:9: warning: unused variable ‘thread_count’ [-Wunused-variable]
+   41 |     int thread_count = strtol(argv[7], NULL, 10);
+      |         ^~~~~~~~~~~~
+make: *** No rule to make target `parallel_mult_max.c', needed by `all'.  Stop.
+make: *** No rule to make target `parallel_mult_second_largest.c', needed by `all'.  Stop.
+make: *** No rule to make target `encrypt_parallel.c', needed by `all'.  Stop.
+make: *** No rule to make target `decrypt_parallel.c', needed by `all'.  Stop.
+slurmstepd: error: acct_gather_profile/influxdb _send_data: curl_easy_perform failed to send data (discarded). Reason: Couldn't resolve host name

@@ -1,0 +1,68 @@
+[32mAutograding for Project 2:[0m
+
+[32m --> Test dir: /home/oucspdn072/test_data [0m
+[32m --> Project dir: /home/oucspdn072/Project_2_Problems [0m
+gcc -fopenmp -g -Wall -o parallel_mult_mat_mat parallel_mult_mat_mat.c -std=c99
+[32mTesting for parallel_mult_mat_mat's output: test1_1_out.csv[0m
+(cd /home/oucspdn072/Project_2_Problems/Problem_1 && ./parallel_mult_mat_mat /home/oucspdn072/test_data/Input_Matricies_Prob_1_And_2/test1_input_mat_a.csv 1000 1000 /home/oucspdn072/test_data/Input_Matricies_Prob_1_And_2/test1_input_mat_b.csv 1000 1000 16 test1_1_out.csv test1_1_out_time.csv)
+Allocation Finished
+Reading Finished
+Multiplication finished
+File output finished
+[33mTesting approximate values...[0m
+[31mDIFF: 0.0[0m
+[93m    Test result 0 = 1
+[93m    Time result 0 = 5.582285s
+[0m
+[32mTesting for parallel_mult_mat_mat's output: test1_2_out.csv[0m
+(cd /home/oucspdn072/Project_2_Problems/Problem_1 && ./parallel_mult_mat_mat /home/oucspdn072/test_data/Input_Matricies_Prob_1_And_2/test2_input_mat_a.csv 1000 1000 /home/oucspdn072/test_data/Input_Matricies_Prob_1_And_2/test2_input_mat_b.csv 1000 2000 16 test1_2_out.csv test1_2_out_time.csv)
+Allocation Finished
+Reading Finished
+Multiplication finished
+File output finished
+[33mTesting approximate values...[0m
+[31mDIFF: 0.0[0m
+[93m    Test result 1 = 1
+[93m    Time result 1 = 11.42736s
+[0m
+[32mTesting for parallel_mult_mat_mat's output: test1_3_out.csv[0m
+(cd /home/oucspdn072/Project_2_Problems/Problem_1 && ./parallel_mult_mat_mat /home/oucspdn072/test_data/Input_Matricies_Prob_1_And_2/test3_input_mat_a.csv 2000 1000 /home/oucspdn072/test_data/Input_Matricies_Prob_1_And_2/test3_input_mat_b.csv 1000 2000 16 test1_3_out.csv test1_3_out_time.csv)
+Allocation Finished
+Reading Finished
+Multiplication finished
+File output finished
+[33mTesting approximate values...[0m
+[31mDIFF: 0.0[0m
+[93m    Test result 2 = 1
+[93m    Time result 2 = 23.6318s
+[0m
+[32mTesting for parallel_mult_mat_mat's output: test1_4_out.csv[0m
+(cd /home/oucspdn072/Project_2_Problems/Problem_1 && ./parallel_mult_mat_mat /home/oucspdn072/test_data/Input_Matricies_Prob_1_And_2/test4_input_mat_a.csv 2000 2000 /home/oucspdn072/test_data/Input_Matricies_Prob_1_And_2/test4_input_mat_b.csv 2000 2000 16 test1_4_out.csv test1_4_out_time.csv)
+Allocation Finished
+Reading Finished
+Multiplication finished
+File output finished
+[33mTesting approximate values...[0m
+[31mDIFF: 0.0[0m
+[93m    Test result 3 = 1
+[93m    Time result 3 = 65.581029s
+[0m
+[31mError making the program parallel_mult_max[0m
+[31mError making the program parallel_mult_second_largest[0m
+[31mError making the program encrypt_parallel[0m
+[31mError making the program decrypt_parallel[0m
+[93m
+Final grades:[0m
+                                    P1-T1  P1-T2  P1-T3  ...  P3-T3  P3-T4  P4-T1
+Nate 'Goated with the Sauce' Reese    1.0    1.0    1.0  ...    0.0    0.0    0.0
+
+[1 rows x 17 columns]
+[93m
+ Final timings:[0m
+                                       P1-T1     P1-T2  ...  P3-T4  P4-T1
+Nate 'Goated with the Sauce' Reese  5.582285  11.42736  ...   -1.0   -1.0
+
+[1 rows x 17 columns]
+[31m
+ --> 4/17 problems correct
+[0m
